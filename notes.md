@@ -1,5 +1,47 @@
 # Day 1 — Telecom App Setup Notes
 
+## What Are We Building and Why?
+
+A telecom company (like Airtel or Jio) manages thousands of customers.
+Right now their data lives in Excel sheets, emails, and someone's memory.
+
+**Problems this causes:**
+- Sales doesn't know a customer already complained to support
+- Billing charges customers who already cancelled
+- No one knows which plans are popular
+- Staff have no history when a customer calls
+
+**Our app fixes this** — one central system everyone uses:
+
+| Problem | Our Solution |
+|---|---|
+| No central customer data | Customer list with search and filter |
+| Can't track plans per customer | Plans and subscriptions module |
+| Multiple staff, same data | Role-based login (Admin, Agent, Viewer) |
+| No history of changes | Activity logs |
+| Manual billing work | Automated alerts via message queue |
+| Files scattered | Document upload to cloud storage |
+| No reports for management | Dashboard with charts |
+
+**Who uses it:**
+- **Admin** — full access, manages everything
+- **Support Agent** — looks up customers, updates plans, logs complaints
+- **Viewer** — read-only, for managers who just want reports
+
+**Why this project is great for learning:**
+
+| Feature | Skill you learn |
+|---|---|
+| Login / signup | JWT auth, passwords, security |
+| Customer CRUD | REST APIs, database, React forms |
+| Search and filter | Database queries, URL parameters |
+| File upload | AWS S3, file handling |
+| Notifications | RabbitMQ message queues |
+| Dashboard charts | Data aggregation, chart libraries |
+| Deployment | Docker, cloud servers, Nginx |
+
+---
+
 ## Technologies Used
 | Tool | Purpose |
 |---|---|
